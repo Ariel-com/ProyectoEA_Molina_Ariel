@@ -11,16 +11,16 @@ body{
 	
 /* Estil pel títol h1*/	
 h1{
-	font-family:Ubuntu;
+	font-family:Helvetica;
 	font-size: 36px;
-	color: #49F392;
-	text-shadow: 2px 2px 8px #FF0000;
+	color: #3036CE;
+	text-shadow: 2px 2px 8px #BC30CE;
 }
 
 /* Estil pel pàrragraf*/
 p{
-	color:blue;  
-	text-align: justify;
+	color:#612C9E;  
+	text-align: overline;
 	}
 
 /* Estil pel títol h2*/
@@ -28,4 +28,8 @@ h2{
 	 color:white;  
 	 background-color: #931389;
 	 text-shadow: olive -3px -4px 5px;
+	}
+
+li{
+		text-align:center;
 	}
