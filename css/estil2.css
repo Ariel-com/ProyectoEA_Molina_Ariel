@@ -1,0 +1,67 @@
+/*Exemple de full d'estil, que només té SELECTORS etiqueta*/
+
+/*Sintaxi fulls d'estil:
+ * selector{
+ * 			regla:valor;
+ * 			} */
+  
+body{
+	text-align: left;
+	} 
+	
+/* Estil pel títol h1*/	
+h1{
+	font-family:Helvetica;
+	text-align: center;
+	font-size: 36px;
+	color: #FDFDFD;
+	text-shadow: 5px -4px 5px #3036CE;
+}
+
+/* Estil pel pàrragraf*/
+p{
+	color:#612C9E;  
+	text-align: overline;
+	}
+
+/* Estil pel títol h2*/
+h2{
+	 text-align: center;
+	 color:white;  
+	 background-color: #377EAE;
+	 text-shadow: #000000 5px -4px 5px;
+
+	}
+	
+h3{
+	 text-align: left;
+	 color:#FDFDFDFD;
+	 font-size: 25px; 
+	 text-shadow: #000000 2px 2px;
+	}
+	
+
+li{
+		text-align:left;
+	}
+
+table {
+   width: 95%;
+   
+}
+
+th, td {
+   width: 20%;
+   text-align: center;
+   vertical-align: top;
+   border: 0.5px solid #000;
+}
+
+th {
+	background: #1E90FF;
+	color : white ;
+ }
+	
+
+ 
+ 
