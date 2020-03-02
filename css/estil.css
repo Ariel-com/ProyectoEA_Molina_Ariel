@@ -6,15 +6,16 @@
  * 			} */
   
 body{
-	text-align: center;
+	text-align: left;
 	} 
 	
 /* Estil pel títol h1*/	
 h1{
 	font-family:Helvetica;
+	text-align: center;
 	font-size: 36px;
-	color: #3036CE;
-	text-shadow: 2px 2px 8px #BC30CE;
+	color: #FDFDFD;
+	text-shadow: 5px -4px 5px #3036CE;
 }
 
 /* Estil pel pàrragraf*/
@@ -25,11 +26,41 @@ p{
 
 /* Estil pel títol h2*/
 h2{
+	 text-align: center;
 	 color:white;  
 	 background-color: #931389;
-	 text-shadow: olive -3px -4px 5px;
+	 text-shadow: #000000 5px -4px 5px;
 	}
+	
+h3{
+	 text-align: left;
+	 color:#FDFDFDFD;
+	 font-size: 25px; 
+	 text-shadow: #000000 2px 2px;
+	}
+	
 
 li{
-		text-align:center;
+		text-align:left;
 	}
+
+table {
+   width: 80%;
+   
+}
+
+th, td {
+   width: 20%;
+   text-align: center;
+   vertical-align: top;
+   border: 0.5px solid #000;
+}
+
+th {
+	background: #931389;
+	color : white ;
+ }
+	
+
+ 
+ 
