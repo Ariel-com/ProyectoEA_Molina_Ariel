@@ -1,0 +1,88 @@
+<!--Tots els comentaris que trobes, et donen informació sobre què fer. 
+	Documenta, mitjançant un altre comentari els teus canvis i perquè els fas.
+	Omple els elements -les etiquetes- que no tinguin contingut.
+	Tabula on calgui. Recorda que una tabulació correcta ajuda a visualitzar el document -->
+	
+<!DOCTYPE html>
+<html>
+	<head>
+<!-- Què fa aquesta etiqueta link, perquè serveix? modifica-la posant el teu favicon-->
+		<link rel= "shortcut icon" href="image/favicon.png">
+<!-- Afexeix la etiqueta per enllaçar full d'estil aquí -->
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>Formulario</title>
+		<link rel="stylesheet" type="text/css" href="css/formu.css">
+	</head>
+
+	<body>
+<!-- Substitueix totes les etiquetes div que trobis per etiquetes semàntiques de maquetació HTML5  
+o afegeix d'altres EXCEPTE ELS DIV DINS DEL FORM!!! -->
+		<div><h1>Venta de coches</h1></div>
+		<main>
+			<!-- Explica els atributs de l'etiqueta form -->
+			<form id="formulari" action="enviat.html" method="post">
+<!-- Identifica el significat de l'etiqueta input i perquè serveixen cada atribut type. Trobes 4 almenys-->
+			<fieldset>
+				<div>
+					<p>Introduce tu Nombre y  Apellido:</p><input type="text" size="30" />
+				</div>
+				<div>
+					<p>Marca del Vehiculo:</p><input type="password" size="30" />
+				</div>
+
+				<div><p>Elije el tipo de uso del Vehiculo:</p>
+<!-- Afegeix opcions -->
+				<select>
+					<option>Desplegar</option>
+					<option>Vehiculo nuevo</option>
+					<option>Vehiculo de segunda mano</option>
+					<option>Otro tipo</option>
+					</select>
+				</div>
+
+				<div><p>Escull la teva disponibilitat horària per la recollida:</p>
+					<select size="3" multiple>
+					<option>Matí</option>
+					<option>Tarda</option>
+					<option>Nit</option>
+					</select>
+				</div>
+
+				<div>
+				<p>Selecciona tu experiencia con un vehiculo:</p>
+					<input type="radio" name="coneixements" value="ninguno"/>Sin experiencia
+					<input type="radio" name="coneixements" value="ninguno"/>Poca experiencia
+					<input type="radio" name="coneixements" value="ninguno"/>Alguna experiencia
+					<input type="radio" name="coneixements" value="ninguno"/>Mucha experiencia
+				</div>
+
+				<div>
+					<p>Selecciona la teva província:</p>
+					<input type="checkbox" name="equip" value="ninguno"/>Barcelona
+					<input type="checkbox" name="equip" value="ninguno"/>Tarragona
+					<input type="checkbox" name="equip" value="ninguno"/>Lleida
+					<input type="checkbox" name="equip" value="ninguno"/>Girona
+				</div>
+
+				<div><p>Intercambios:</p>
+					<select>
+					<option>Desplegar</option>
+					<option>MI Vehiculo antiguo</option>
+					<option>Otro tipo</option>
+					</select>
+				</div>
+<!-- Afegeix opcions -->
+				<div>
+					<p>Alguna mejora o añadir mas complementos?</p>
+				<textarea rows="10" cols="50"></textarea>
+				</div>
+
+				<input type="submit" value="Enviar">
+				<input type="reset" value="Esborrar">
+			</fieldset>
+			</form>
+
+		</main>
+		<footer><p>cOmPrAmË WACHO</p></footer>
+	</body>
+</html>
